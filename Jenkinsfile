@@ -17,7 +17,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the project...'
-                sh 'npm install && npm run build'
+                sh 'npm install '
+                sh 'npm run build'
                 sh 'echo Build step — replace with your command'
             }
         }
