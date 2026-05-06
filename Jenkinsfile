@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         APP_NAME = 'auth-lab'  // Change to your application name
-        BUILD_DIR = 'target'   // or 'build', 'dist' for your project
+        BUILD_DIR = 'build'   // or 'build', 'dist' for your project
     }
 
     stages {
