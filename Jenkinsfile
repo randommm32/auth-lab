@@ -17,9 +17,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the project...'
-                sh 'npm install '
-                sh 'npm run build'
-                sh 'echo Build step — replace with your command'
+                bat 'npm install '
+                bat 'npm run build'
+                bat 'echo Build step — replace with your command'
             }
         }
 
